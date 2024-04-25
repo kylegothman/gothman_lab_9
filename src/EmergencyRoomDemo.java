@@ -11,7 +11,7 @@ public class EmergencyRoomDemo {
         TimeUnit.MILLISECONDS.sleep(10);
         eRoom.checkIn(new Patient("Ruth Mendez", LocalDate.of(1965, 1, 22)), Severity.SEVEN);
         TimeUnit.MILLISECONDS.sleep(10);
-        eRoom.checkIn(new Patient("Melvin Ingram", LocalDate.of(1965, 1, 22)), Severity.SEVEN);
+        eRoom.checkIn(new Patient("Melvin Ingram", LocalDate.of(1965, 1, 22)), Severity.THREE);
         TimeUnit.MILLISECONDS.sleep(10);
         eRoom.checkIn(new Patient("Tara Silva", LocalDate.of(1975, 5, 8)), Severity.EIGHT);
         TimeUnit.MILLISECONDS.sleep(10);
